@@ -14,14 +14,11 @@
 ```
 import numpy as np
 from sympy import *
-
-
 ```
 2. Buat fungsi `factorisation_method` dengan parameter `f` dan `max_iter = 4` sesuai arahan soal.
 
 ```
 def factorisation_method(f, max_iter=4):
-
 ```
 
 3. Definisikan semua variabel untuk fungsi `x`, semua koefisien nya, dan inisialisasi `a0` sebagai `0`.
@@ -47,18 +44,17 @@ for i in range(max_iter):
     A2 = A[1]
 
     if a0 == 0:
-            b0 = 0
-        else:
-            b0 = round(A0 / a0, 2)
+        b0 = 0
+    else:
+        b0 = round(A0 / a0, 2)
 
-        a1 = round(A2 - b0, 2)
-        a0 = round(A1 - b0 * a1, 2)
+    a1 = round(A2 - b0, 2)
+    a0 = round(A1 - b0 * a1, 2)
 
-        print(f"Iterasi ke-{i+1}:")
-        print(f"  b0 = A0 / a0 = {A0} / {a0} = {b0:.2f}")
-        print(f"  a1 = A2 - b0 = {A2} - {b0} = {a1:.2f}")
-        print(f"  a0 = A1 - a1 * b0 = {A1} - {a1} * {b0} = {a0:.2f}\n")
-
+    print(f"Iterasi ke-{i+1}:")
+    print(f"  b0 = A0 / a0 = {A0} / {a0} = {b0:.2f}")
+    print(f"  a1 = A2 - b0 = {A2} - {b0} = {a1:.2f}")
+    print(f"  a0 = A1 - a1 * b0 = {A1} - {a1} * {b0} = {a0:.2f}\n")
 ```
 
 5. Bulatkan hasil iterasi dan simpan sebagai `f(x) = (x + b0)(x^2 + a1x + a0)`
@@ -95,7 +91,6 @@ print(f"     = {factors_str}\n")
 print(f"x1 = {x1}")
 print(f"x2 = {x2}")
 print(f"x3 = {x3}")
-
 ```
 
 7. Terima inputan dari pengguna, lalu gunakan fungsi untuk menghitung hasil (untuk soal 21, ada di command `#Example Usage`)
