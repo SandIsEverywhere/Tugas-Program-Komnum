@@ -1,3 +1,5 @@
+# Tugas-Program-Komnum-A05
+
 |	NRP 	|  	Name  	|
 | :--------: | :------------: |
 | 5025241106 | Joaquin Fairuz Nawfal Ismono |
@@ -5,7 +7,7 @@
 | 5025241112 | Dafa Kumara Sahasika |
 | 5025241114 | Hasan Abdurrahman |
 
-# Tugas Program Komputasi Numerik A05
+# Nomor Soal: 21
 
 **Langkah Pengerjaan Soal No. 21:**
 
